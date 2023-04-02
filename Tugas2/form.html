@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload File Gilang</title>
+	<style>
+		input{
+			margin-top: 5px;
+		}
+	</style>
+</head>
+<body style="background-color: #7FFFD4">
+	<h2>Tugas Upload Gambar</h2>
+	<form action="Form.php" method="POST" enctype="multipart/form-data">
+		<label>Nama<span style="margin-left: 63px">:</span> </label>
+		<input type="text" name="nama" required><br>
+		<label>Password<span style="margin-left: 40px">:</span> </label>
+		<input type="password" name="password" value="password" required=""><br>
+		<label>Jenis Kelamin<span style="margin-left: 10px">:</span> </label>
+		<input type="radio" name="jk" value="Laki-laki">Laki-laki
+		<input type="radio" name="jk" value="Perempuan">Perempuan<br>
+		<label>Fakultas<span style="margin-left: 47px">:</span> </label>
+		<input type="radio" name="Fak" value="FKIP">FKIP
+		<input type="radio" name="Fak" value="FMIPA">FMIPA
+		<input type="radio" name="Fak" value="FISIP">FISIP
+		<input type="radio" name="Fak" value="FEB">FEB
+		<input type="radio" name="Fak" value="FK">FK
+		<input type="radio" name="Fak" value="FT">FT
+		<input type="radio" name="Fak" value="FP">FP
+		<input type="radio" name="Fak" value="FH">FH<br>
+
+		<label>Masukkan Gambar :</label><br>
+		<input type="file" name="fileToUpload"><br>
+		<input type="submit" name="submit" value="kirim">
+
+	</form>
+</body>
+</html>
