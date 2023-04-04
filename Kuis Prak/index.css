@@ -36,6 +36,26 @@ nav ul li a{
     padding: 25px;
     color: #fff;
     text-decoration: none;
-    }
+}
 
+.jadwal td {
+  padding: 15px;
+  text-align: center;
+}
 
+.bg {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #00FFFF;
+  width: 600px;
+  height: 100px;
+}
+
+img {
+  width: 120px; 
+  height: 120px;
+  border: 3px solid #ddd; 
+  border-radius: 50%; 
+  border: 1px solid black;
+  margin-left: 20px;
